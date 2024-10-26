@@ -10,11 +10,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0B6E4F;
 }
 
 .container{
     width: 500px;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,6 +26,7 @@ body{
 
 span{
     color: red;
+   
        
 } 
 
@@ -35,13 +37,17 @@ h1{
     font-family:'Arial Narrow', Arial, sans-serif;
     font-size: 50px;  
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: -30px;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #1ed567;
     opacity: 0.8;   
     color: #0f1110;
 }
 
+.tempo{
+    color: #6BBF59;
+}
 
 .hora{
     width:200px;
@@ -50,9 +56,9 @@ h1{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    border:none;
-    background-color: #6BBF59;
+    border:3px solid #6BBF59 ;
     font-size: 30px;
+    margin-bottom: 20px;
 
 }
 
@@ -68,7 +74,7 @@ button{
 }
 
 .but{
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
